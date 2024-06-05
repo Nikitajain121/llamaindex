@@ -20,7 +20,7 @@ from llama_index.core import VectorStoreIndex,SimpleDirectoryReader,ServiceConte
 
 #from feedback import store_feedback
 
-from audioRecognition import listen_for_audio
+#from audioRecognition import listen_for_audio
 from dataloader import load_data
 
 load_dotenv()
