@@ -159,7 +159,7 @@ psycopg2-binary
 pyarrow==16.0.0
 pyasn1==0.6.0
 pyasn1_modules==0.4.0
-#pyaudio==0.2.14
+pyaudio==0.2.14
 pycryptodome==3.20.0
 pydantic==2.6.3
 pydantic-settings==2.2.1
