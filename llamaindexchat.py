@@ -94,10 +94,10 @@ with input_container:
     with col2:
         voice_input = st.button("🎙️", key="voice_input_btn")
 
-    if voice_input:
-        prompt = listen_for_audio()
-    else:
-        prompt = st.session_state.user_input if "user_input" in st.session_state else None
+    # if voice_input:
+    #     prompt = listen_for_audio()
+    # else:
+    prompt = st.session_state.user_input if "user_input" in st.session_state else None
 
     if prompt:
         st.session_state.messages.append({"role": "user", "content": prompt})
